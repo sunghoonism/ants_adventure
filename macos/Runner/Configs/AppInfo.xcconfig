@@ -8,7 +8,7 @@
 PRODUCT_NAME = ants_adventure
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.antsAdventure
+PRODUCT_BUNDLE_IDENTIFIER = com.ant_revolution.antsAdventure
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2025 com.example. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2025 com.ant_revolution. All rights reserved.

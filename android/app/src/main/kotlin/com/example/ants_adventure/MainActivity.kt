@@ -1,4 +1,4 @@
-package com.example.ants_adventure
+package com.ant_revolution.ants_adventure
 
 import io.flutter.embedding.android.FlutterActivity
 

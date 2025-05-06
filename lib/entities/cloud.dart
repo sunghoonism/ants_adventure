@@ -2,14 +2,15 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flame/components.dart';
 import 'game_entity.dart';
+import '../services/image_service.dart';
 
 class Cloud extends GameEntity {
-  static const double SPEED = 50.0;  // 지렁이 속도의 절반
+  static const double SPEED = 50.0;  // 개미핥기기 속도의 절반
+  
+  Cloud() : super(objectType: GameObjectType.cloud);
   
   @override
   Future<void> onLoad() async {
-    await super.onLoad();
-    
     size = Vector2(60, 30);
     paint = Paint()
       ..color = Colors.white
@@ -18,15 +19,16 @@ class Cloud extends GameEntity {
     final random = math.Random();
     position = Vector2(
       gameRef.size.x,
-      random.nextDouble() * (gameRef.size.y - 250) + 100,  // 총알과 같은 범위의 y좌표
+      random.nextDouble() * (gameRef.size.y - 250) + 100,  // 벌과 같은 범위의 y좌표
     );
+    
+    // 커스텀 이미지를 로드하지 않도록 수정
+    debugMode = false; // 디버그 모드 비활성화
   }
   
   @override
   void render(Canvas canvas) {
-    // 사각형 대신 둥근 구름 모양 그리기
-    final cloudPath = Path();
-    
+    // 항상 구름 모양으로 그리기
     // 구름의 중앙 부분
     final centerX = size.x / 2;
     final centerY = size.y / 2;

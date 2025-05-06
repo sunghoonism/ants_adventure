@@ -1,15 +1,23 @@
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import '../game_entity.dart';
+import '../../services/image_service.dart';
 
 /// 게임 내 모든 장애물의 기본 클래스
 abstract class Obstacle extends GameEntity with CollisionCallbacks {
+  // 상수값 정의
+  static const double OUT_OF_BOUNDS_X = 0.0; // 화면 밖으로 나갔다고 판단할 X 좌표
+  
   final double speed;
   
-  Obstacle({required this.speed});
+  Obstacle({
+    required this.speed,
+    required GameObjectType objectType,
+  }) : super(objectType: objectType);
   
   @override
   Future<void> onLoad() async {
+    // 먼저 부모 클래스의 onLoad 호출하여 커스텀 이미지 로드
     await super.onLoad();
     
     // 충돌 박스 추가

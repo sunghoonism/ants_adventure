@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=2.17.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -34,7 +34,12 @@ dependencies:
   image_picker: ^0.8.7
   shared_preferences: ^2.1.0
   path_provider: ^2.0.15
+  google_sign_in: ^6.2.1 # Google 계정 로그인용
+  games_services: ^4.1.1 # Saved Games(저장/불러오기)용
   cupertino_icons: ^1.0.5
+  flame_audio: ^2.1.0
+  image_cropper: ^11.0.0
+  flutter_svg: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +68,8 @@ flutter:
     - assets/images/
     - assets/images/ant/
     - assets/images/obstacles/
+    - assets/images/preview/
+    - assets/audio/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

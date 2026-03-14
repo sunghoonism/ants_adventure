@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Google Play Games Services App ID -->
+    <!-- Replace with your actual app ID from Google Play Console -->
+    <string name="app_id">YOUR_APP_ID_HERE</string>
+</resources>

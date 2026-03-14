@@ -1,0 +1,18 @@
+﻿
+full_analysis_lib.txt:3:warning - entities\ant.da
+rt:1:8 - Unused import: 'dart:io'. Try removing t
+he import directive. - unused_import
+full_analysis_lib.txt:4:warning - entities\game_e
+ntity.dart:4:8 - Unused import: 'package:flame/co
+llisions.dart'. Try removing the import directive
+. - unused_import
+full_analysis_lib.txt:5:warning - entities\game_e
+ntity.dart:5:8 - Unused import: 'package:flame/fl
+ame.dart'. Try removing the import directive. - u
+nused_import
+full_analysis_lib.txt:6:warning - tools\sprite_ge
+nerator.dart:5:8 - Unused import: 'package:path_p
+rovider/path_provider.dart'. Try removing the imp
+ort directive. - unused_import
+
+

@@ -1,0 +1,26 @@
+﻿Analyzing ants_adventure_game.dart...
+
+warning - ants_adventure_game.dart:858:36 - The receiver can't be null, so the null-aware operator '?.' is unnecessary. Try replacing the operator '?.' with '.'. - invalid_null_aware_operator
+   info - ants_adventure_game.dart:7:8 - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart'. Try removing the import directive. - unnecessary_import
+   info - ants_adventure_game.dart:49:20 - The constant name 'SCORE_PER_LEVEL' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style. - constant_identifier_names
+   info - ants_adventure_game.dart:50:23 - The constant name 'MAX_DIFFICULTY' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style. - constant_identifier_names
+   info - ants_adventure_game.dart:67:21 - The member 'buildContext' overrides an inherited member but isn't annotated with '@override'. Try adding the '@override' annotation. - annotate_overrides
+   info - ants_adventure_game.dart:175:5 - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const'. - prefer_const_declarations
+   info - ants_adventure_game.dart:176:5 - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const'. - prefer_const_declarations
+   info - ants_adventure_game.dart:252:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - ants_adventure_game.dart:270:45 - 'opacity' is deprecated and shouldn't be used. Use .a. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - ants_adventure_game.dart:603:5 - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const'. - prefer_const_declarations
+   info - ants_adventure_game.dart:604:5 - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const'. - prefer_const_declarations
+   info - ants_adventure_game.dart:713:44 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - ants_adventure_game.dart:762:5 - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const'. - prefer_const_declarations
+   info - ants_adventure_game.dart:763:5 - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const'. - prefer_const_declarations
+   info - ants_adventure_game.dart:829:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - ants_adventure_game.dart:849:43 - 'opacity' is deprecated and shouldn't be used. Use .a. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - ants_adventure_game.dart:1052:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - ants_adventure_game.dart:1089:13 - The member 'priority' overrides an inherited member but isn't annotated with '@override'. Try adding the '@override' annotation. - annotate_overrides
+   info - ants_adventure_game.dart:1104:41 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - ants_adventure_game.dart:1155:15 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - ants_adventure_game.dart:1189:13 - The member 'priority' overrides an inherited member but isn't annotated with '@override'. Try adding the '@override' annotation. - annotate_overrides
+   info - ants_adventure_game.dart:1199:49 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+
+22 issues found.
